@@ -14,11 +14,11 @@
 
 ## O Projeto
 
-Esse projeto tem como objetivo avaliar o conhecimento e habilidade em desenvolvimento Back-End e Front-End. Para isso foi desenvolvido uma aplicação de modelo WEB de cadastro de candidatos, vagas e gerar relação de candidatos com habilidades compatíveis aos requisitos mínimos de habilidades das respectivas vagas. Esse software foi desenvolvido conforme os requisitos descritos no documento do [Desafio STS Informática]().
+Esse projeto tem como objetivo avaliar o conhecimento e habilidade em desenvolvimento Back-End e Front-End. Para isso foi desenvolvido uma aplicação de modelo WEB de cadastro de candidatos, vagas e gerar relação de candidatos com habilidades compatíveis aos requisitos mínimos de habilidades das respectivas vagas. Esse software foi desenvolvido conforme os requisitos descritos no documento do [Desafio STS Informática](https://github.com/zecarlos558/blob/6a69f7d031aca02de3dbc57ade0665ea7dcfdb1e/doc/Desafio%20%E2%80%93%20Desenvolvedor%20PHP_Laravel.pdf).
 
 ## Desenvolvedor
 
-Projeto desenvolvido individualmente para Resolução do [Desafio STS Informática]().
+Projeto desenvolvido individualmente para Resolução do [Desafio STS Informática](https://github.com/zecarlos558/blob/6a69f7d031aca02de3dbc57ade0665ea7dcfdb1e/doc/Desafio%20%E2%80%93%20Desenvolvedor%20PHP_Laravel.pdf).
 
 <table>
   <tr>
@@ -34,7 +34,7 @@ O sistema consiste nas funcionalidades de CRUD para Candidatos, Vagas e gerar de
 
 Apresentação do Diagrama de Entidade Relacionamento desenvolvido no projeto.
 
-![Diagrama do Banco de Dados](https://raw.githubusercontent.com/zecarlos558/modelo_candidato_vaga/main/doc/screenshots/Diagrama_do_Banco_de_Dados.png)
+![Diagrama do Banco de Dados](https://raw.githubusercontent.com/zecarlos558/main/doc/screenshots/Diagrama_do_Banco_de_Dados.png)
 
 Para mais informações consulte o dicionário de dados: 
 
@@ -105,7 +105,7 @@ Tela inicial da aplicação personalizada ao idealizador do projeto, informa fun
 http://127.0.0.1:8080/
 ```
 
-![HOME](https://raw.githubusercontent.com/zecarlos558/modelo_candidato_vaga/main/doc/screenshots/index.png)
+![HOME](https://raw.githubusercontent.com/zecarlos558/main/doc/screenshots/index.png)
 
 ##### Página Inicial
 
@@ -115,7 +115,7 @@ Tela de apresentação, possui acesso as principais funcionalidades do sistema e
 http://127.0.0.1:8080/home
 ```
 
-![HOME](https://raw.githubusercontent.com/zecarlos558/modelo_candidato_vaga/main/doc/screenshots/pagina_inicial.png)
+![HOME](https://raw.githubusercontent.com/zecarlos558/main/doc/screenshots/pagina_inicial.png)
 
 ##### Login
 
@@ -125,7 +125,7 @@ Tela para realizar login do usuário
 http://127.0.0.1:8080/login
 ```
 
-![Login](https://raw.githubusercontent.com/zecarlos558/modelo_candidato_vaga/main/doc/screenshots/login.png)
+![Login](https://raw.githubusercontent.com/zecarlos558/main/doc/screenshots/login.png)
 
 ##### Cadastrar Usuário
 
@@ -135,7 +135,7 @@ Tela para cadastrar usuário
 http://127.0.0.1:8080/register
 ```
 
-![Register](https://raw.githubusercontent.com/zecarlos558/modelo_candidato_vaga/main/doc/screenshots/register.png)
+![Register](https://raw.githubusercontent.com/zecarlos558/main/doc/screenshots/register.png)
 
 ##### Candidatos - CREATE
 
@@ -145,7 +145,7 @@ Tela para cadastro de Candidatos
 http://127.0.0.1:8080/product/create
 ```
 
-![Candidatos - CREATE](https://raw.githubusercontent.com/zecarlos558/modelo_candidato_vaga/main/doc/screenshots/candidato_create.png)
+![Candidatos - CREATE](https://raw.githubusercontent.com/zecarlos558/main/doc/screenshots/candidato_create.png)
 
 ##### Candidatos - READ
 
@@ -155,7 +155,7 @@ Lista o Candidatos cadastrados com as opções de cadastrar, editar e deletar Ca
 http://127.0.0.1:8080/product/
 ```
 
-![Candidatos - READ](https://raw.githubusercontent.com/zecarlos558/modelo_candidato_vaga/main/doc/screenshots/candidato_read.png)
+![Candidatos - READ](https://raw.githubusercontent.com/zecarlos558/main/doc/screenshots/candidato_read.png)
 
 ##### Candidatos - UPDATE
 
@@ -165,7 +165,7 @@ Tela para editar dados do Candidatos
 http://127.0.0.1:8080/product/edit/{id}
 ```
 
-![Candidatos - UPDATE](https://raw.githubusercontent.com/zecarlos558/modelo_candidato_vaga/main/doc/screenshots/candidato_edit.png)
+![Candidatos - UPDATE](https://raw.githubusercontent.com/zecarlos558/main/doc/screenshots/candidato_edit.png)
 
 ##### Candidatos - DELETE
 
@@ -183,7 +183,7 @@ Tela para cadastro de Vaga
 http://127.0.0.1:8080/Vaga/create
 ```
 
-![Vaga - CREATE](https://raw.githubusercontent.com/zecarlos558/modelo_candidato_vaga/main/doc/screenshots/vaga_create.png)
+![Vaga - CREATE](https://raw.githubusercontent.com/zecarlos558/main/doc/screenshots/vaga_create.png)
 
 ##### Vaga - READ
 
@@ -193,7 +193,7 @@ Lista as Vagas cadastradas com as opções de cadastrar, editar e deletar Vaga
 http://127.0.0.1:8080/Vaga/
 ```
 
-![Vaga - READ](https://raw.githubusercontent.com/zecarlos558/modelo_candidato_vaga/main/doc/screenshots/vaga_read.png)
+![Vaga - READ](https://raw.githubusercontent.com/zecarlos558/main/doc/screenshots/vaga_read.png)
 
 ##### Vaga - UPDATE
 
@@ -203,7 +203,7 @@ Tela para editar dados da Vaga
 http://127.0.0.1:8080/Vaga/edit/{id}
 ```
 
-![Vaga - UPDATE](https://raw.githubusercontent.com/zecarlos558/modelo_candidato_vaga/main/doc/screenshots/vaga_edit.png)
+![Vaga - UPDATE](https://raw.githubusercontent.com/zecarlos558/main/doc/screenshots/vaga_edit.png)
 
 ##### Vaga - DELETE
 
@@ -221,9 +221,9 @@ Tela para exibir vagas disponíveis e candidatos compatíveis com suas habilidad
 http://127.0.0.1:8080/vagas/disponivel
 ```
 
-![Relatório - Sistema](https://raw.githubusercontent.com/zecarlos558/modelo_candidato_vaga/main/doc/screenshots/vaga_disponivel.png)
+![Relatório - Sistema](https://raw.githubusercontent.com/zecarlos558/main/doc/screenshots/vaga_disponivel.png)
 
 
 ## Agradecimentos
 
-![Promobit](https://raw.githubusercontent.com/zecarlos558/modelo_candidato_vaga/main/doc/logo_sts.png)
+![Promobit](https://raw.githubusercontent.com/zecarlos558/main/doc/logo_sts.png)
