@@ -142,17 +142,17 @@ http://127.0.0.1:8080/home
 Tela para cadastro de Candidatos
 
 ```http
-http://127.0.0.1:8080/product/create
+http://127.0.0.1:8080/candidato/create
 ```
 
 ![Candidatos - CREATE](https://raw.githubusercontent.com/zecarlos558/modelo_candidato_vaga/main/doc/screenshots/candidato_create.png)
 
 ##### Candidatos - READ
 
-Lista o Candidatos cadastrados com as opções de cadastrar, editar e deletar Candidato
+Lista o Candidatos cadastrados com as opções de editar e deletar Candidato
 
 ```http
-http://127.0.0.1:8080/product/
+http://127.0.0.1:8080/candidato/
 ```
 
 ![Candidatos - READ](https://raw.githubusercontent.com/zecarlos558/modelo_candidato_vaga/main/doc/screenshots/candidato_read.png)
@@ -162,7 +162,7 @@ http://127.0.0.1:8080/product/
 Tela para editar dados do Candidatos
 
 ```http
-http://127.0.0.1:8080/product/edit/{id}
+http://127.0.0.1:8080/candidato/edit/{id}
 ```
 
 ![Candidatos - UPDATE](https://raw.githubusercontent.com/zecarlos558/modelo_candidato_vaga/main/doc/screenshots/candidato_edit.png)
@@ -180,17 +180,17 @@ http://127.0.0.1:8080/candidato/{id}
 Tela para cadastro de Vaga
 
 ```http
-http://127.0.0.1:8080/Vaga/create
+http://127.0.0.1:8080/vagas/create
 ```
 
 ![Vaga - CREATE](https://raw.githubusercontent.com/zecarlos558/modelo_candidato_vaga/main/doc/screenshots/vaga_create.png)
 
 ##### Vaga - READ
 
-Lista as Vagas cadastradas com as opções de cadastrar, editar e deletar Vaga
+Lista as Vagas cadastradas com as opções de editar e deletar Vaga
 
 ```http
-http://127.0.0.1:8080/Vaga/
+http://127.0.0.1:8080/vagas/
 ```
 
 ![Vaga - READ](https://raw.githubusercontent.com/zecarlos558/modelo_candidato_vaga/main/doc/screenshots/vaga_read.png)
@@ -200,7 +200,7 @@ http://127.0.0.1:8080/Vaga/
 Tela para editar dados da Vaga
 
 ```http
-http://127.0.0.1:8080/Vaga/edit/{id}
+http://127.0.0.1:8080/vagas/edit/{id}
 ```
 
 ![Vaga - UPDATE](https://raw.githubusercontent.com/zecarlos558/modelo_candidato_vaga/main/doc/screenshots/vaga_edit.png)
@@ -210,7 +210,7 @@ http://127.0.0.1:8080/Vaga/edit/{id}
 Caminho para deletar Vaga
 
 ```http
-http://127.0.0.1:8080/vaga/{id}
+http://127.0.0.1:8080/vagas/{id}
 ```
 
 ##### Relatório Vagas Disponíveis
