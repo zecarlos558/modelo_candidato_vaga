@@ -70,7 +70,7 @@ Para mais informações consulte o dicionário de dados: [Dicionário de Dados](
   - Abra o terminal na pasta do projeto e digite o comando para instalar as dependências do projeto.
 
       - ```less
-        php composer install
+        composer install
         ```
 
   - Ainda no terminal na pasta do projeto digite o comando para criar as tabelas no banco. E se desejar incrementar o comando seed para adicionar dados ao banco de dados.
