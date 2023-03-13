@@ -1,4 +1,4 @@
-# Desafio Promobit - Modelo de cadastro de Candidato e Vagas
+# Desafio STS Informática - Modelo de cadastro de Candidato e Vagas
 
 
 ## Tópicos
@@ -7,7 +7,6 @@
 * [Desenvolvedor](#Desenvolvedor)
 * [Estrutura do Software](#Estrutura-do-Software)
   * [Diagrama do Banco de Dados](#Diagrama-do-Banco-de-Dados)
-  * [Script Relatório](#Script-Relatório)
 * [Tecnologias](#Tecnologias)
   * [Instalar e utilizar](#Como-instalar-e-utilizar)
 * [Endpoints](#Endpoints-e-Telas)
@@ -15,11 +14,11 @@
 
 ## O Projeto
 
-Esse projeto tem como objetivo avaliar o conhecimento e habilidade em desenvolvimento Back-End e Front-End. Para isso foi desenvolvido uma aplicação de modelo WEB de cadastro de candidatos, vagas e gerar relação de candidatos com habilidades compatíveis aos requisitos mínimos de habilidades das respectivas vagas. Esse software foi desenvolvido conforme os requisitos descritos no documento do [Desafio STS Informática](https://github.com/Promobit/teste-cadastro-Candidatos).
+Esse projeto tem como objetivo avaliar o conhecimento e habilidade em desenvolvimento Back-End e Front-End. Para isso foi desenvolvido uma aplicação de modelo WEB de cadastro de candidatos, vagas e gerar relação de candidatos com habilidades compatíveis aos requisitos mínimos de habilidades das respectivas vagas. Esse software foi desenvolvido conforme os requisitos descritos no documento do [Desafio STS Informática]().
 
 ## Desenvolvedor
 
-Projeto desenvolvido individualmente para Resolução do [Desafio Promobit](https://github.com/Promobit/teste-cadastro-Candidatos).
+Projeto desenvolvido individualmente para Resolução do [Desafio STS Informática]().
 
 <table>
   <tr>
