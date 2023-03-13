@@ -4,7 +4,7 @@
         <div class="card-header">
             <div class="row justify-content-between">
                 <div class="col">
-                    Lista de Candidatos
+                    Lista de Vagas
                 </div>
                 <div class="col">
                     <x-center-search></x-center-search>

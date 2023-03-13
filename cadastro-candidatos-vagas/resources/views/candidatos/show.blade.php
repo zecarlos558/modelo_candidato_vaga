@@ -52,7 +52,7 @@
                 @foreach ($vagas as $vaga)
                 <tr class="">
                     <th scope="row">{{ ($loop->index+1) }}</th>
-                    <td><x-button.a href="{{ route('candidato.show', $vaga->id) }}" >{{ $vaga->nome }}</x-button.a></td>
+                    <td><x-button.a href="{{ route('vaga.show', $vaga->id) }}" >{{ $vaga->nome }}</x-button.a></td>
                     <td>{{ implode(', ', $vaga->habilidades) }}</td>
                 </tr>
                 @endforeach

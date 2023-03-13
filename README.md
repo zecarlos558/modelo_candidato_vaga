@@ -14,7 +14,7 @@
 
 ## O Projeto
 
-Esse projeto tem como objetivo avaliar o conhecimento e habilidade em desenvolvimento Back-End e Front-End. Para isso foi desenvolvido uma aplicação de modelo WEB de cadastro de candidatos, vagas e gerar relação de candidatos com habilidades compatíveis aos requisitos mínimos de habilidades das respectivas vagas. Esse software foi desenvolvido conforme os requisitos descritos no documento do [Desafio STS Informática](https://github.com/zecarlos558/modelo_candidato_vaga/blob/6a69f7d031aca02de3dbc57ade0665ea7dcfdb1e/doc/Desafio%20%E2%80%93%20Desenvolvedor%20PHP_Laravel.pdf).
+Esse projeto tem como objetivo avaliar o conhecimento e habilidade em desenvolvimento Back-End e Front-End. Para isso foi desenvolvido uma aplicação de modelo WEB de cadastro de candidatos, vagas e gerar uma relação de vagas com os candidatos compatíveis aos requisitos mínimos de 3 habilidades das respectivas vagas. Esse software foi desenvolvido conforme os requisitos descritos no documento do [Desafio STS Informática](https://github.com/zecarlos558/modelo_candidato_vaga/blob/6a69f7d031aca02de3dbc57ade0665ea7dcfdb1e/doc/Desafio%20%E2%80%93%20Desenvolvedor%20PHP_Laravel.pdf).
 
 ## Desenvolvedor
 
@@ -95,7 +95,7 @@ Para mais informações consulte o dicionário de dados: [Dicionário de Dados](
 
 ## Endpoints e Telas
 
-Neste tópico está listado os Endpoints da aplicação, para melhor orientação na utilização do sistema. A página inicial é a única que não precisa de autenticação do usuário, para acessar todas as outras páginas é necessário o Login para confirmar a autenticação do usuário. Possui um menu fixo no topo da página que permitirá navegação entre as páginas do sistema.
+Neste tópico está listado os Endpoints da aplicação, para melhor orientação na utilização do sistema. A página index é a única que não precisa de autenticação do usuário, para acessar todas as outras páginas é necessário o Login para confirmar a autenticação do usuário. Possui um menu fixo no topo da página que permitirá navegação entre as páginas do sistema.
 
 ##### Index
 

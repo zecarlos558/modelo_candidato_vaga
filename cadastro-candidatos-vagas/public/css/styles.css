@@ -16,8 +16,6 @@ header {
     background-color: rgb(245, 245, 245);
 }
 
-/* Tela Inicial - Index */
-
 #index .col-sm {
     display: flex;
     height: 75vh;
@@ -25,14 +23,12 @@ header {
     justify-content: center;
 }
 
-/* Tela Inicial - Index (fim) */
-
 #panel-home{
     color: darkred;
     background-color: white;
 }
 
-.card#tabela {
+#tabela .card-body {
     min-height: 100%;
     max-height: 80vh;
     overflow-x: auto;
@@ -98,7 +94,6 @@ img {
     flex-wrap: nowrap;
 }
 
-/* Style Panel Relatorio */
 #componentPanelRelatorio {
     text-align: center;
     background-color: darkred;
@@ -110,7 +105,6 @@ img {
     margin-top: 20px;
 }
 
-/* Style para caixa pesquisa menu */
 #pesquisaMenu {
     width: 50%;
     font-size: 18px;
@@ -118,7 +112,6 @@ img {
     border: 1px solid #ddd;
 }
 
-/* Style para alerts */
 .alerta {
     position: fixed;
     padding: 5px;
@@ -148,22 +141,18 @@ img {
     color: black;
 }
 
-/* Style para navbar*/
 .nav-item.dropdown:hover .dropdown-menu {
     display: block;
 }
 
-/* Style barra de navegação do menu na coluna esquerda*/
 #MenuOpcao {
     list-style-type: none;
     padding: 0;
     margin: 0;
 }
 
-/* Style Tabela e campo pesquisa*/
 #tabela {
     width: 100%;
-    text-align: justify;
     border-collapse: collapse;
 }
 
@@ -213,7 +202,6 @@ img {
     width: 100%;
 }
 
-/* Styles Table */
 table {
     margin: 0;
 }
@@ -240,13 +228,14 @@ table tbody td {
 #MenuOpcao li a {
     font-size: 18px;
     padding: 12px;
-    text-decoration: none;
     color: black;
     display: block
 }
 
 #MenuOpcao li a:hover {
+    font-size: 20px;
     background-color: #eee;
+    color: indianred;
 }
 
 #search-container form {
@@ -284,14 +273,8 @@ table tbody td {
     color: indianred;
 }
 
-/* Lista de objetos */
 #tech-container {
     padding: 1vw;
-}
-
-#tech-container .subtitle {
-    color: pink;
-    margin-right: 30px;
 }
 
 form .input-group input,
@@ -300,20 +283,9 @@ form select .form-select {
     margin-bottom: auto;
 }
 
-/* Style para os Botões */
-
 form a, form button, .dropdown-toggle {
     margin-bottom: 8px;
 }
-
-/* Style de tabela */
-#tabelaProdutos_overflow {
-    min-height: 55vh;
-    max-height: 57vh;
-    overflow-x: auto;
-}
-
-/* Style para página do comprovante (FIM) */
 
 footer {
     text-align: center;

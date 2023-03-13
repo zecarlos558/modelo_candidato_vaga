@@ -3,6 +3,7 @@
     @section('head')
         <link rel="stylesheet" href="{{ asset('css/selectize.default.min.css') }}" referrerpolicy="no-referrer" />
         <script src="{{ asset('js/selectize.min.js') }}" referrerpolicy="no-referrer"></script>
+        <script src="{{ asset('js/selectize.js') }}" referrerpolicy="no-referrer" defer></script>
     @endsection
 
     <form action="{{ route('candidato.update', $candidato->id) }}" method="post" autocomplete="off">
@@ -40,23 +41,4 @@
             </div>
         </div>
     </form>
-
-    <script>
-        $("#habilidades").selectize({
-            plugins: ["restore_on_backspace", "clear_button", "remove_button"],
-            delimiter: ",",
-            persist: false,
-            maxItems: null,
-            create: function(input) {
-                return {
-                    value: input,
-                    text: input,
-                };
-            },
-            sortField: {
-                field: 'text',
-                direction: 'asc'
-            }
-        });
-    </script>
 </x-main>
