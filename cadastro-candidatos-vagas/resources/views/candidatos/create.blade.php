@@ -1,0 +1,57 @@
+<x-main>
+    @section('title', 'Candidatos')
+    @section('head')
+        <link rel="stylesheet" href="{{ asset('css/selectize.default.min.css') }}" referrerpolicy="no-referrer" />
+        <script src="{{ asset('js/selectize.min.js') }}" referrerpolicy="no-referrer"></script>
+    @endsection
+
+    <form action="{{ route('candidato.store') }}" method="post" autocomplete="off">
+        <div class="card">
+            <div class="card-header">
+                Cadastrar Candidato
+            </div>
+            <div class="card-body">
+                @csrf
+                <div class="mb-3">
+                    <label for="" class="form-label">Nome</label>
+                    <input type="text" class="form-control" value="" name="nome" id="nome"
+                        aria-describedby="helpId" placeholder="Nome do Candidato">
+
+                </div>
+
+                <div class="control-group">
+                    <label for="habilidades">Habilidades:</label>
+                    <select required id='habilidades' value="" name="habilidades[]">
+                        @foreach ($linguagens as $linguagem)
+                            <option></option>
+                            <option>{{ $linguagem->name }}</option>
+                        @endforeach
+                    </select>
+                </div>
+
+            </div>
+            <div class="card-footer text-muted">
+                <button type="submit" class="btn btn-primary">Cadastrar</button>
+            </div>
+        </div>
+    </form>
+
+    <script>
+        $("#habilidades").selectize({
+            plugins: ["restore_on_backspace", "clear_button", "remove_button"],
+            delimiter: ",",
+            persist: true,
+            maxItems: null,
+            create: function(input) {
+                return {
+                    value: input,
+                    text: input,
+                };
+            },
+            sortField: {
+                field: 'text',
+                direction: 'asc'
+            }
+        });
+    </script>
+</x-main>
